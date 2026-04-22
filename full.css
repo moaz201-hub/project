@@ -1,0 +1,111 @@
+*{
+    margin :0 ;
+
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navbar{
+    width:100%;
+    height: 50px;
+    background-color: black;
+}
+.nav-container{
+    display: flex;
+    align-items: center ;
+    padding: 0px 50px ;
+    height: 100%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.logo-con{
+    flex:1;
+}
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #162E93;
+
+
+}
+.menue-con{
+    flex:6;
+    
+}
+.menue-items{
+    display: flex;
+    list-style: none;
+}
+.menue-list{
+    margin: 30px;
+}
+.profile-con{
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.toggle{
+    width: 40px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+.toggle-icon{
+    color: #2F2FE4;
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 1px;
+    background-color: black ;
+    border-radius: 50%;
+}
+.profile-text{
+    margin: 0 20px;
+}
+.profile-pic{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: center;
+ 
+}
+.left-menue-icon{
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.container{
+    background-color:#1A1953;
+    height: calc((100vh - 50px));
+}
+.content-container{
+    margin-left:50px ;
+}
+.movie-content{
+    height: 50vh;
+    
+}

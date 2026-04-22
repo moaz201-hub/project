@@ -5,6 +5,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+
 }
 
 .navbar {
@@ -54,7 +55,7 @@ body {
 }
 
 .profile-con {
-    flex: 2;
+    flex: 4;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -131,4 +132,14 @@ body {
 .movie-content {
     height: 50vh;
 
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: #162f9300;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0;
 }
